@@ -1,0 +1,34 @@
+{
+  "name": "three.js-examples",
+  "description": "JavaScript files from Three.js examples",
+  "authors": [
+    "mrdoob"
+  ],
+  "license": "MIT",
+  "homepage": "http://threejs.org/examples",
+  "keywords": [
+    "three",
+    "threejs",
+    "three.js",
+    "3D",
+    "webgl"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "package.json"
+  ],
+  "_release": "62f0a5a961",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "62f0a5a96140ef06ae8abb51684cd609f23f4300"
+  },
+  "_source": "https://github.com/mistic100/three.js-examples.git",
+  "_target": "master",
+  "_originalSource": "three.js-examples"
+}
