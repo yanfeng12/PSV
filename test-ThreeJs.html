@@ -77,38 +77,37 @@ function init() {
      */
     scene = new THREE.Scene();
 
-    /**
-     *正方体的6个面的资源及相关（坐标、旋转等）设置
-     
-     */
-    var flipAngle = Math.PI, // 180度
-        rightAngle = flipAngle / 2, // 90度
-        tileWidth = 512; 
-    var sides = [{
-        url: "files/panorama.right.jpg", //right
-        position: [-tileWidth, 0, 0],
-        rotation: [0, rightAngle, 0]
-    }, {
-        url: "files/panorama.left.jpg", //left    
-        position: [tileWidth, 0, 0],
-        rotation: [0, -rightAngle, 0]
-    }, {
-        url: "files/panorama.top.jpg", //top
-        position: [0, tileWidth, 0],
-        rotation: [rightAngle, 0, Math.PI]
-    }, {
-        url: "files/panorama.bottom.jpg", //bottom
-        position: [0, -tileWidth, 0],
-        rotation: [-rightAngle, 0, Math.PI]
-    }, {
-        url: "files/panorama.front.jpg", //front
-        position: [0, 0, tileWidth],
-        rotation: [0, Math.PI, 0]
-    }, {
-        url: "files/panorama.back.jpg", //back
-        position: [0, 0, -tileWidth],
-        rotation: [0, 0, 0]
-    }];
+/**
+ *正方体的6个面的资源及相关（坐标、旋转等）设置
+ */
+var flipAngle = Math.PI, // 180度
+    rightAngle = flipAngle / 2, // 90度
+    tileWidth = 512; 
+var sides = [{
+    url: "images/panorama.right.jpg", //right
+    position: [-tileWidth, 0, 0],
+    rotation: [0, rightAngle, 0]
+}, {
+    url: "images/panorama.left.jpg", //left    
+    position: [tileWidth, 0, 0],
+    rotation: [0, -rightAngle, 0]
+}, {
+    url: "images/panorama.top.jpg", //top
+    position: [0, tileWidth, 0],
+    rotation: [rightAngle, 0, Math.PI]
+}, {
+    url: "images/panorama.bottom.jpg", //bottom
+    position: [0, -tileWidth, 0],
+    rotation: [-rightAngle, 0, Math.PI]
+}, {
+    url: "images/panorama.front.jpg", //front
+    position: [0, 0, tileWidth],
+    rotation: [0, Math.PI, 0]
+}, {
+    url: "images/panorama.back.jpg", //back
+    position: [0, 0, -tileWidth],
+    rotation: [0, 0, 0]
+}];
 
     for ( var i = 0; i < sides.length; i ++ ) {
         var side = sides[ i ];
