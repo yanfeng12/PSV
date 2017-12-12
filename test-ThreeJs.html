@@ -45,21 +45,6 @@
 <script src="files/three.min.js"></script>
 <script src="files/CSS3DRenderer.min.js"></script>
 <script src="files/DeviceOrientationControls.js"></script>
-<div style="overflow: hidden; transform-style: preserve-3d; width: 1200px; height: 587px; perspective: 382.497px;"><div style="transform-style: preserve-3d; width: 1200px; height: 587px; transform: translate3d(0px, 0px, 382.497px) matrix3d(0.516533, -0.267442, 0.81343, 0, 0, -0.949972, -0.312335, 0, -0.856267, -0.161331, 0.490692, 0, 0, 0, 0, 1) translate3d(600px, 293.5px, 0px);"><div id="bg_section_0" class="bg_section bg_section_4 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(0, 0, -1, 0, 0, -1, 0, 0, 1, 0, 0, 0, -512, 0, 0, 1);">
-        <img class="bg" src="files/panorama.right.jpg" alt="">
-        <div class="btn1 bounceant1"></div> <!-- 可点击按钮1 -->
-    </div><div id="bg_section_1" class="bg_section bg_section_5 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(0, 0, 1, 0, 0, -1, 0, 0, -1, 0, 0, 0, 512, 0, 0, 1);">
-        <img class="bg" src="files/panorama.left.jpg" alt="">
-    </div><div id="bg_section_2" class="bg_section bg_section_2 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(-1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 512, 0, 1);">
-        <img class="bg" src="files/panorama.top.jpg" alt="">
-    </div><div id="bg_section_3" class="bg_section bg_section_3 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(-1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -512, 0, 1);">
-        <img class="bg" src="files/panorama.bottom.jpg" alt="">
-    </div><div id="bg_section_4" class="bg_section bg_section_1 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 512, 1);">
-        <img class="bg" src="files/panorama.front.jpg" alt="">
-        <div class="btn2 bounceant1"></div> <!-- 可点击按钮2 -->
-    </div><div id="bg_section_5" class="bg_section bg_section_0 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, -512, 1);">
-        <img class="bg" src="files/panorama.back.jpg" alt="">
-    </div></div></div>
 <script>
 
 var camera, scene, renderer;
@@ -261,7 +246,21 @@ $('.btn2').on('touchstart',function(){
     alert('第二个按钮被点击了');
 });
 
-</script>
+</script><div style="overflow: hidden; transform-style: preserve-3d; width: 1200px; height: 587px; perspective: 382.497px;"><div style="transform-style: preserve-3d; width: 1200px; height: 587px; transform: translate3d(0px, 0px, 382.497px) matrix3d(0.516533, -0.267442, 0.81343, 0, 0, -0.949972, -0.312335, 0, -0.856267, -0.161331, 0.490692, 0, 0, 0, 0, 1) translate3d(600px, 293.5px, 0px);"><div id="bg_section_0" class="bg_section bg_section_4 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(0, 0, -1, 0, 0, -1, 0, 0, 1, 0, 0, 0, -512, 0, 0, 1);">
+        <img class="bg" src="files/panorama.right.jpg" alt="">
+        <div class="btn1 bounceant1"></div> <!-- 可点击按钮1 -->
+    </div><div id="bg_section_1" class="bg_section bg_section_5 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(0, 0, 1, 0, 0, -1, 0, 0, -1, 0, 0, 0, 512, 0, 0, 1);">
+        <img class="bg" src="files/panorama.left.jpg" alt="">
+    </div><div id="bg_section_2" class="bg_section bg_section_2 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(-1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 512, 0, 1);">
+        <img class="bg" src="files/panorama.top.jpg" alt="">
+    </div><div id="bg_section_3" class="bg_section bg_section_3 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(-1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -512, 0, 1);">
+        <img class="bg" src="files/panorama.bottom.jpg" alt="">
+    </div><div id="bg_section_4" class="bg_section bg_section_1 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(-1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 512, 1);">
+        <img class="bg" src="files/panorama.front.jpg" alt="">
+        <div class="btn2 bounceant1"></div> <!-- 可点击按钮2 -->
+    </div><div id="bg_section_5" class="bg_section bg_section_0 scale_test" style="position: absolute; transform: translate3d(-50%, -50%, 0px) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, -512, 1);">
+        <img class="bg" src="files/panorama.back.jpg" alt="">
+    </div></div></div>
     
 
 </body></html>
